@@ -363,8 +363,10 @@ section.depoimentos .depoimento-single {
 .img-mosaico-single-social {
     float: left;
     width: calc(100% / 9);
+    background-repeat: no-repeat;
+    background-size: center center;
     padding-top: calc(100% / 9);
-    background-color: rgba(0, 0, 255, 0.404);
+    background-color: rgba(105, 105, 110, 0.404);
     border: 6px solid white;
 }
 
