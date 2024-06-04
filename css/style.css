@@ -100,7 +100,7 @@ header ul li a {
     width: 100%;
     padding-top: 100%;
     background-repeat: no-repeat;
-    background-size: center center;
+    background-size: cover;
     background-color: rgb(105, 103, 103);
     border: 5px solid white;
     
