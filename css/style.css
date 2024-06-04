@@ -99,9 +99,11 @@ header ul li a {
 .img-mosaico-single {
     width: 100%;
     padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: center center;
     background-color: rgb(105, 103, 103);
     border: 5px solid white;
-    /* background-image: url(../imagens/procedimento-3.png); */
+    
     
     
 
@@ -265,11 +267,11 @@ section.tratamentos > h2 {
     text-align: center;
     font-size: 28px;
     text-transform: uppercase;
-    padding:50px;
+    padding:0px;
 }
 
 section.tratamentos > .container {
-    padding: 80px 0;
+    padding: 60px 0;
 }
 
 .tratamento-single {
@@ -360,11 +362,13 @@ section.depoimentos .depoimento-single {
     width: 100%;
 }
 
+
+
 .img-mosaico-single-social {
     float: left;
     width: calc(100% / 9);
     background-repeat: no-repeat;
-    background-size: center center;
+    background-size: cover;
     padding-top: calc(100% / 9);
     background-color: rgba(105, 105, 110, 0.404);
     border: 6px solid white;
