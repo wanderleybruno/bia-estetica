@@ -583,6 +583,11 @@ footer .footer-block {
         padding: 0 30px;
     }
 
+   .texto-perfil h2 {
+    text-align: center;
+    margin: 30px;
+   }
+
     section.videos {
         text-align: center;
         margin: 0 auto;
