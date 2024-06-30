@@ -27,7 +27,7 @@ html, body {
 
 header {
     padding: 20px 2%;
-    background-color: rgb(97, 74, 99);
+    background-color: rgb(239, 211, 241);
 }
 
 header .logo img {
@@ -159,20 +159,20 @@ section.servicos > .container .box-servico:nth-last-of-type(1) {
     width: 30%;
     text-align: center;
     padding: 30px 2%;
-    background-color: #576975 ;
+    background-color: #8a578b  ;
 }
 
 section.servicos > .container .box-servico:nth-last-of-type(2) {
     width: 40%;
     padding: 55px 2%;
-    background-color: #688293;
+    background-color: #bf4acada ;
     background-image: none;
 }
 
 section.servicos > .container .box-servico:nth-last-of-type(3) {
     width: 30%;
     padding: 30px 2%;
-    background-color: #576975 ;
+    background-color: #8a578b  ;
 }
 
 
@@ -660,5 +660,50 @@ footer .footer-block {
         width: 50px;
         
     }
+
+   
+
+    section.tratamentos {
+        padding: 10px 0;
+    }
+    
+    section.tratamentos .tratamento-container {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .tratamentos > h2 {
+        color: #698293;
+        text-align: center;
+        font-size: 28px;
+        text-transform: uppercase;
+        
+       
+    }
+    
+    section.tratamentos > .container {
+        padding: 20px 0;
+    }
+    
+    .tratamento-single {
+        padding: 20px;
+    }
+    
+    .tratamento-single h2 {
+        font-size: 16px;
+        color: #737373;
+        text-transform: uppercase;
+        
+    }
+    
+    .tratamento-single p {
+        padding: 10px 0;
+        font: 14px;
+        color: #8f8e8e;
+    }
+
+
+
 }
     
